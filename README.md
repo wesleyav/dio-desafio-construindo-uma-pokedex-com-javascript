@@ -40,3 +40,12 @@ CSS
 ```css
 font-family: 'Roboto', sans-serif;
 ```
+
+## Acessando a API
+
+* Site - <https://pokeapi.co/>
+* Endpoint - <https://pokeapi.co/api/v2/pokemon?offset=0&limit=10>
+
+## Criando requisição com Fetch API
+
+* Site - <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>
