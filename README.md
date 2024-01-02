@@ -1,4 +1,21 @@
-# dio-desafio-construindo-uma-pokedex-com-javascript
+# Construindo uma Pokedex com JavaScript
+
+## Descrição
+
+Este é um projeto para o desafio de projeto **Construindo uma Pokédex com JavaScript** da DIO. Consiste em uma aplicação frontend que exibe os pokemons a partir de consulta realizada na API [PoKeApi](https://pokeapi.co/). Neste projeto é utilizado um servidor http estático simples chamado `http-server`.
+
+## Pré-requisitos
+
+* Node
+
+## Tecnologias utilizadas
+
+| Tecnologia  | Versão  |
+| ----------- | ------- |
+| Node        | 16.15.0 |
+| Http-server | 14.1.1  |
+
+## Comandos no terminal
 
 ```bash
 # verificar versão do Node.js
@@ -49,3 +66,22 @@ font-family: 'Roboto', sans-serif;
 ## Criando requisição com Fetch API
 
 * Site - <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>
+
+## Acessando o Front-end
+
+* Localhost - <http://localhost:8080>
+
+![fig1](imgs/Screenshot_1.png)
+
+Ao acessar o endpoint são exibidos os 10 primeiros pokemons.
+
+![fig2](imgs/Screenshot_2.png)
+
+Ao clicar no botão `Load More` são carregados mais 10 pokemons.
+
+![fig3](imgs/Screenshot_3.png)
+
+> Este projeto está configurado para exibir somente a primeira geração de Pokemons, totalizando 151 Pokemons.
+
+The [MIT License](LICENSE) (MIT)
+Copyright :copyright: 2022 - Projeto CRUD API com Spring Boot
